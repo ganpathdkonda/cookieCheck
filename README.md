@@ -25,4 +25,4 @@ Contains all the necessary stylesheet data
 
 ## Copyright & License
 Copyright (c) 2013 Zanox.de AG licensed under the Apache 2.0 license (see LICENSE file)  
-Further, oral or written information or advice given by ZANOX.de AG�s or any of its subsidiaries� representatives shall neither create a warranty nor in any way effect the terms of the License.
+Further, oral or written information or advice given by ZANOX.de AG's or any of its subsidiaries' representatives shall neither create a warranty nor in any way effect the terms of the License.
