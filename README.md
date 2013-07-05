@@ -2,7 +2,7 @@ zanox cookie checker
 ============================
 This is the zanox cookie checker 1.0
 
-It gives users to possibility to simply check if their current browser settings allow cookies on your site (1rst party) 
+It gives users the possibility to simply check if their current browser settings allow cookies on your site (1rst party) 
 as well as for zanox (3rd party). It also checks if zanox might be blocked by an adblocker.  
 Additional checks can be easily integrated if needed.
 
@@ -25,4 +25,4 @@ Contains all the necessary stylesheet data
 
 ## Copyright & License
 Copyright (c) 2013 Zanox.de AG licensed under the Apache 2.0 license (see LICENSE file)  
-Further, oral or written information or advice given by ZANOX.de AG’s or any of its subsidiaries’ representatives shall neither create a warranty nor in any way effect the terms of the License.
+Further, oral or written information or advice given by ZANOX.de AGï¿½s or any of its subsidiariesï¿½ representatives shall neither create a warranty nor in any way effect the terms of the License.
