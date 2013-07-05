@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>zanox cookie check</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="noindex, nofollow">
+	<meta http-equiv="expires" content="0">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="cookie_check.js"></script>
+</head>
+
+<body>
+<div id="demo_container">
+	<div id="logo_holder">
+		Insert your own header here.
+	</div>
+	<div id="content_holder">
+		<br>
+		Intro text like<br>
+		<i>
+		You want to earn cashback on your online purchases?<br><br>
+		Make sure your browser settings do not block tracking of your purchases so the cashback can be passed on to you.<br>
+		</i>
+		<br>
+		OR<br><br>
+		<i>
+		This website is financed by advertising. 
+		In order to be able to continue providing this information to you for free, please check your browser settings and adjust them accordingly, if necessary.<br>
+		</i>
+		<br>
+		Just click on the <b>Check cookies</b> button below to start checking your browser settings now.<br>
+		<br>
+		<br>
+		<br>
+		This is how it works:<br>
+		<b>&bull; Click the &quot;Check cookies&quot; button<br>
+		&bull; The cookies settings of your browser will be checked<br>
+		&bull; The result will be displayed straight away: Either everything is fine and your purchases can be tracked; or if not you get a recommendation to optimize your settings.<br></b>
+		<br>
+		<img src="images/button.png" alt="check cookie settings" onclick="performChecks();" id="check_button">
+		<div id="check_in_progress" style="display:none;">
+			<img src="images/throbber.gif" alt=""> performing checks...
+		</div>
+		
+		<div id="cookie_check_result_text">
+			<span id="local_cookie_not_ok" style="display:none;">
+				<span class="error"> 1rst party cookies do NOT work</span><br>
+			</span>
+			<span id="local_cookie_ok" style="display:none;">
+				<span class="success"> 1rst party cookies work</span><br>
+			</span>
+			
+			<span id="zanox_blocked" style="display:none;">
+				<span class="error"> zanox seems to be blocked by an ad blocker!</span><br>
+			</span>
+			<span id="zanox_cookie_not_ok" style="display:none;">
+				<span class="error"> zanox 3rd party cookies do NOT work</span><br>
+			</span>
+			<span id="zanox_cookie_ok" style="display:none;">
+				<span class="success"> zanox 3rd party cookies work</span><br>
+			</span>
+			
+			<span id="all_fine_message" style="display:none;">
+				<br><br><span class="success"> Everything looks fine!</span><br>
+			</span>
+			
+			<span id="adblocker_message" style="display:none;">
+				<br><br><span class="error"> Please disable your ad blocker!</span><br>
+			</span>
+			<span id="cookie_unblock_message" style="display:none;">
+				<br><br>
+				<span class="error">
+					Please make sure that your browser accepts all relevant cookies! <br>
+					To enable cookies, do the following:<br><br>
+					<span class="error_description">
+						• for Firefox: <br> 
+						Tools &gt; Options &gt; Privacy &gt; Show Cookies &gt; <br>
+						--&gt; aktivate checkbox &quot;Accept cookies from sites&quot; <br>
+						--&gt; aktivate checkbox &quot;Accept third-party cookies (Keep until: they expire)&quot; <br><br>
+						<img src="images/cookie_all_3rdparty_en_ff.png" alt="">
+						<br><br>
+						• for Internet Explorer: <br>
+						Tools &gt; Internet Options &gt; Privacy &gt; <br>
+						--&gt; set slide bar to &quot;Medium&quot; <br><br>
+						<img src="images/cookie_all_3rdparty_en_ie.png" alt="">
+						<br>
+					</span>
+				</span>
+			</span>
+		</div>
+
+		<br>
+		<br>
+		<br>
+	</div>
+	<div id="footer_holder">
+		Insert your own footer here.
+	</div>
+	<div id="divTrackingCheck" style="display:none;">&nbsp;</div>
+</div>
+
+</body>
+</html>

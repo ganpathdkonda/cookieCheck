@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+}
+
+#demo_container{
+	width:838px;
+	background: url(images/bg.png);
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#logo_holder{
+	width: 800px;
+	height: 150px;
+	margin-right:auto;
+	margin-left:auto;
+	border: 1px dashed white;
+	text-align: center;
+}
+
+#content_holder{
+	width: 760px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right:auto;
+	margin-left:auto;
+	color: #333333;
+	font-family: verdana;
+	font-size: 16px;
+}
+
+#footer_holder{
+	width: 800px;
+	height: 80px;
+	margin-right:auto;
+	margin-left:auto;
+	border: 1px dashed white;
+	text-align:center;
+}
+
+#check_button{
+	cursor:pointer;
+	padding-bottom: 15px;
+}
+
+.success{ color:#1ca329; font-weight:bold;}
+.success:before{ content: url(images/icon_check.png); }
+.error{ color:#dd0000; font-weight:bold; }
+.error:before{ content: url(images/icon_x.png); }
+.error_description{ color:#000000; font-weight:normal; }
